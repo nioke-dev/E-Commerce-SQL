@@ -89,7 +89,7 @@ create table store(
     last_online DATETIME,
     active_status boolean
 );
-create table order(
+create table order1(
     order_id int primary key,
     store_id int,
     product_id int,
@@ -100,6 +100,7 @@ create table order(
     payment_status boolean,
     order_status boolean
 );
+
 create table transaction(
     transaction_id int primary key,
     user_id int,
