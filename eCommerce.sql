@@ -111,3 +111,7 @@ create table transaction(
     transaction_status boolean,
     transaction_confirmation boolean
 );
+
+create table cart(
+    id_cart int primary key
+)
